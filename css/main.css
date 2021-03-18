@@ -1,0 +1,499 @@
+/* Start Body */
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+html {scroll-behavior: smooth;}
+
+*{box-sizing: border-box;}
+/* End Body */
+
+
+/* Start Container */
+.container {
+    width: 85%;
+    margin: auto;
+}
+/* End Container */
+
+
+/* Start Header */
+.header {
+    height: 100vh;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.header .overlay {
+    background-color: rgba(25, 25, 26, 0.22);
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+}
+
+.header .nav-bar 
+{
+    position: relative;
+    top: 15px;
+    width: 100%;
+}
+
+.header .nav-bar .logo {
+    float: left;
+    position: relative;
+    width: 15%
+}
+
+.header .nav-bar .logo .large-screen-logo,
+.header .nav-bar .logo .small-screen-logo {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    width: 100%;
+}
+
+.header .nav-bar .logo .small-screen-logo {display: none;}
+
+.header .nav-bar .menu {float: right;}
+
+.header .nav-bar .menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header .nav-bar .menu ul li {
+    float: left;
+    padding-right: 30px;
+}
+
+.header .nav-bar .menu ul li a 
+{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+
+.header .nav-bar .menu ul li a:hover {color: #e0c690;}
+
+.header .header-info {
+    text-align: center;
+    padding: 150px 30px 0 30px;
+}
+
+.header .header-info p {
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.header .header-info h1 {
+    font-size: 75px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.header .header-info .btn1,
+.header .header-info .btn2 {
+    margin-top: 40px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border:2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+.header .header-info .btn1 {
+    background-color: #8e7754;
+    border:2px solid #8e7754;
+    margin-right: 10px;
+}
+
+.header .header-info .btn1:hover {
+    background-color: #fff;
+    border:2px solid #fff;
+    color: #222;
+}
+
+.header .header-info .btn2:hover {
+    background-color: #fff;
+    border:2px solid #fff;
+    color: #222;
+}
+/* End Header */
+
+
+/* Start Setting Box */
+.header .setting-box
+{
+    background-color: #fff;
+    position: fixed;
+    top: 200px;
+    right: 0;
+    width: 40px;
+    height: 80px;
+    padding: 8px 0 10px 7px;
+    border: 1px solid #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.header .setting-box a {
+    display: block;
+    color: #666;
+    transition: all 0.3s;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.header .setting-box a:hover {color: #007BB5;}
+/* End Setting Box */
+
+
+/* Start Who we are */
+.who-we-are {padding: 50px 0;}
+
+.who-we-are .who-we-are-list .icon {
+    color: #8e7754;
+    border: 0.5px solid #ccc;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.who-we-are .who-we-are-list p {display: inline-block; margin-left: 5px;}
+
+.who-we-are .who-we-are-img,
+.who-we-are .who-we-are-info {float: left; width: 45%;}
+
+.who-we-are .who-we-are-img img {max-width: 100%;}
+
+.who-we-are .who-we-are-info {margin-left: 5%;}
+
+.who-we-are .who-we-are-info h3 {margin-top: 10px; margin-bottom: 10px;}
+
+.who-we-are .who-we-are-info .who-we-are-list {margin-top: 5px;}
+/* End Who we are */
+
+
+/* Start Our Location */
+.location {
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+
+.location .location-info,
+.location .location-img{
+    float: left;
+    width: 45%;
+}
+
+.location .location-info {
+    margin-right: 5%;
+    padding-top: 50px;
+}
+
+.location .location-img img {width: 100%;}
+/* End Our Location*/
+
+
+/* Start Our Bakery */
+.our-bakery {text-align: center; padding: 50px 0;}
+
+.our-bakery .our-bakery-gallery {margin-top: 50px}
+
+.our-bakery .our-bakery-gallery .gallery-item {float: left; width: 30%;}
+
+.our-bakery .our-bakery-gallery .gallery-img {overflow: hidden;}
+
+.our-bakery .our-bakery-gallery .gallery-img img {transition: all 0.7s;}
+
+.our-bakery .our-bakery-gallery .gallery-img:hover img {transform: scale(1.3 , 1.3);} 
+
+.our-bakery .our-bakery-gallery .middle-item {margin: 0 5%;}
+
+.our-bakery .our-bakery-gallery .gallery-item div img {width: 100%;}
+
+.our-bakery .our-bakery-gallery .gallery-item h4 {font-size: 22px; color: #373a3c}
+/* End Our Bakery */
+
+
+/* Start Contact Information*/
+.contact {
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+
+.contact .title {margin-top: 30px;}
+
+.contact .contact-info,
+.contact .contact-map {
+    float: left;
+    width: 47.5%;
+}
+
+.contact .contact-info .contact-details .icon {
+    border-radius: 50%;
+    padding: 11px;
+    background-color: #8E7754;
+    color: #fff;
+}
+
+.contact .contact-info .contact-details p {display: inline-block; margin-left: 10px;}
+
+.contact .contact-map {margin-left: 5%;}
+/* End Contact Information*/
+
+
+/* Statr Main Footer */
+.main-footer {
+    background-color: #403d38;
+    padding: 50px 0;
+    color: #969696;
+}
+
+.main-footer h3 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.main-footer p {font-size: 18px;}
+
+.main-footer .footer-term {
+    float: left;
+    width: 23.5%;
+    margin-left: 1.5%;
+}
+
+.main-footer .footer-list .fa-chevron-right {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.main-footer .footer-list p
+{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding: 3px 0;
+}
+
+.main-footer .footer-map {
+    background-image: url(../images/footer-map.png);
+    background-position:center 125px;
+    background-repeat: no-repeat;
+    
+}
+
+.main-footer .footer-map .overlay {
+    background: rgba(64, 61, 56, 0.85); 
+    color: #969696;
+}
+
+.main-footer .footer-term .contact-details
+{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    margin-bottom: 10px;
+}
+
+.main-footer .footer-term .contact-details i {padding-right: 10px;}
+/* End Main Footer */
+
+
+/* Start Second Footer */
+.second-footer {
+    background-color: #353330;
+    color: #969696;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.second-footer .icon {
+    background-color: #484540;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin-left: 3px;
+    width: 35px;
+    height: 35px;
+    color: #868481;
+    transition: all 0.3s;
+}
+
+.second-footer .icon:hover {color: #fff;}
+
+.fa-facebook-f:hover {background-color: #3B5998;}
+.fa-google-plus-g:hover {background-color: #DD4B39;}
+.fa-linkedin-in:hover {background-color: #007BB5;}
+.fa-twitter:hover {background-color: #00ACED;}
+/* End Second Footer */
+
+
+/* Start Global Classes */
+.clear {clear: both;}
+
+.h3 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #373a3c;
+}
+
+.p-18 {
+    font-size: 18px;
+    color: #686868;
+}
+
+.p-22 {
+    font-size: 22px;
+    color: #686868;
+}
+/* End Global Classes */
+
+
+
+/* Media Query */
+/* Small Screens */
+@media (max-width: 767px)
+{
+       
+    .p-22 {font-size: 18px;}
+    .h3 {font-size: 28px;}
+    
+    /* Header */
+      .header .header-info p {
+            font-size: 16px;
+      }
+        
+       .header .header-info h1 {
+            font-size: 30px;
+            margin-bottom: 30px;
+      }
+
+       /* Who we are */
+       .who-we-are .who-we-are-img,
+       .who-we-are .who-we-are-info {
+           float: none;
+           width: 100%;
+       }
+
+       .who-we-are .who-we-are-info {margin-top: 20px; margin-left: 0;}
+       /* Our Location */
+       .location {padding-top: 0;}
+
+       .location .location-info,
+       .location .location-img {
+           float: none;
+           width: 100%;
+       }   
+       .location .location-img {
+           margin-top: 50px;
+       }
+
+       /* Our Bakery */
+       .our-bakery .our-bakery-gallery .gallery-item {
+            float: none;
+            width: 100%;
+        }
+
+       .our-bakery .our-bakery-gallery .middle-item {
+           margin: 10% 0;
+        }
+
+        
+        /* Contact Information */
+        .contact .contact-info,
+        .contact .contact-map {
+            float: none;
+            width: 100%;
+        }
+
+        .contact .contact-map {
+            margin-left: 0;
+            margin-top: 10%;
+        }
+
+
+        /* Main Footer */
+        .main-footer .footer-term {
+            float: none;
+            width: 100%;
+            margin-bottom: 35px;        
+        }
+}
+
+/* Medium Screens */
+@media (max-width: 992px)
+{
+
+      .p-22 {font-size: 20px;}
+
+      /* Header */
+      .header .header-info p {
+        font-size: 21px;
+       }
+    
+       .header .header-info h1 {
+        font-size: 34px;
+        margin-bottom: 30px;
+       }
+
+       .header .header-info .btn1,
+        .header .header-info .btn2 {
+            padding: 15px 12px;
+        }
+
+        .header .nav-bar .container {
+            width: 100%;
+        }
+
+        .header .nav-bar {
+            background-color: #fff;
+            position: static;
+            top: 0;
+        }
+
+        .header .nav-bar .logo .large-screen-logo {
+            display: none;
+        }
+
+        .header .nav-bar .logo .small-screen-logo {
+            display: block;
+            width: 150%;
+        }
+}
+
+@media (min-width: 767px) and (max-width: 992px)
+{
+    
+        /* Who we are */
+        .who-we-are .who-we-are-info {
+            padding-top: 0px;
+        }
+ 
+        .who-we-are .who-we-are-info h3 {
+            margin-top: 0px;
+        }
+ 
+
+        /* Our Location */
+        .location .location-info {
+            margin-right: 5%;
+            padding-top: 0px;
+        }
+
+        .location .location-info h3 {
+            margin-top: 0px;
+        }
+
+        /* Main Footer */
+        .main-footer .footer-term {
+            float: left;
+            width: 45%;
+            margin-right: 2.5%;        
+        }
+
+}
